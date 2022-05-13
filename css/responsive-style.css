@@ -1,0 +1,88 @@
+@media (max-width:1024px) {
+    .testimonial-section .carousel-item p {
+        padding: 0;
+    }
+    .testimonial-section .carousel-item {
+        height: 500px;
+    }
+}
+
+@media (max-width:991px) {
+    .text-content {
+        width: 100%;
+    }
+    .navigation-wrap .navbar-brand img {
+        height: 3.8125rem;
+    }
+    .navigation-wrap {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navigation-wrap .nav-link {
+        line-height: 1.875rem;
+    }
+    .top-banner {
+        padding: 9.375rem 0 9.375rem;
+    }
+    /* ..........carousel design........................... */
+    .testimonial-section .carousel-item p {
+        padding: 0;
+    }
+    .testimonial-section .carousel-item {
+        height: 600px;
+    }
+}
+
+@media (max-width:767px) {
+    h1 {
+        font-size: 2.8rem;
+    }
+    h2 {
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+    .top-banner {
+        padding: 10.875rem 0 9.375rem;
+    }
+    .story-section {
+        height: auto;
+        padding: 3rem 0;
+    }
+    /* ..........carousel design........................... */
+    .testimonial-section .carousel-item {
+        padding: 10rem 3.125rem;
+    }
+    .testimonial-section .carousel-item {
+        height: 600px;
+    }
+    /* newsletter design */
+    .newsletter {
+        width: 75%;
+    }
+    .newsletter .main-btn {
+        width: 100%;
+    }
+    .footer .footer-link,
+    .footer .fab {
+        padding: 0 0.75rem;
+    }
+}
+
+@media (max-width:330px) {
+    .testimonial-section .carousel-item {
+        padding: 12rem 3.125rem;
+    }
+    .testimonial-section .carousel-item {
+        height: 700px;
+    }
+    .newsletter .form-control {
+        font-size: 0.585rem;
+    }
+    .footer .footer-link,
+    .footer .fab {
+        padding: 0 0.25rem;
+    }
+    .top-banner h1 {
+        font-size: 2.4rem;
+    }
+}
